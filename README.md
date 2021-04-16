@@ -19,12 +19,12 @@ interference pattern to image of the material or animal.
 
 1. Background
 
-Core processing uses the HoloPy library from <Harvard Project>. HoloPy routines
+Core processing uses the HoloPy library from a Harvard Project. HoloPy routines
 are used to build an image of animal or material by the process called
 "reconstruction". The routines "propagate" the interference pattern through
 a series of slices (these slice intervals are defined in code by the user) in
 conjunction with the known optical characteristics of the system to create the
-image. The demands that reconstruction places on computing resources is not
+image. The demand that reconstruction places on computing resources is not
 trivial.
 
 Batch processing consists of invoking the steps over a collection of
@@ -66,7 +66,7 @@ programmatic.
    Developed started under Anaconda/Spyder but I judged that these were
    using resources best devoted to the processing of holograms. In the
    end they were turned into unix shell/command line programs. Success on
-   other computers will depend on how Python3, numpy, and HoloPy are installed.
+   other computers will depend on how python3, numpy, and HoloPy are installed.
 
    The routines obtain some user-defined information through a DOS-style
    config file, such as optics and path information. Other user-defined
